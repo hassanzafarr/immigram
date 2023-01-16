@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 2rem 6rem;
-  background-color: #229dee;
+  background-color: #060056;
 }
 .immi__navbar-links {
   flex: 1;
@@ -15,8 +15,8 @@
   margin-right: 2rem;
 }
 .immi__navbar-links_logo img {
-  width: 62.45px;
-  height: 16.02px;
+  width: 100.45px;
+  height: 50.02px;
 }
 .immi__navbar-links_container {
   display: flex;
@@ -30,7 +30,7 @@
 .immi__navbar-links_container p,
 .immi__navbar-sign p,
 .immi__navbar-menu_container p {
-  color: white;
+  color: rgb(255, 255, 255);
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 15px;

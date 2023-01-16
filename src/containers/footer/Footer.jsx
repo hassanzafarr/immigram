@@ -1,11 +1,11 @@
 import React from "react";
-import gpt3Logo from "../../assets/logo.svg";
+import Logo from "../../assets/fanunn.svg";
 import "./footer.css";
 const Footer = () => (
   <div className="immi__footer section__padding">
     <div className="immi__footer-links">
       <div className="immi__footer-links_logo">
-        <img src={gpt3Logo} alt="gpt3_logo" />
+        <img src={Logo} alt="gpt3_logo" />
         <p>
           Crechterwoord K12 182 DK Alknjkcb, <br /> All Rights Reserved
         </p>
