@@ -2,8 +2,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem 6rem;
-  background-color: #060056;
+  padding: 2rem 3rem 2rem 2rem;
+  background-color: #ffffff;
+  /* t r b l */
 }
 .immi__navbar-links {
   flex: 1;
@@ -15,12 +16,14 @@
   margin-right: 2rem;
 }
 .immi__navbar-links_logo img {
-  width: 100.45px;
+  width: 150.45px;
   height: 50.02px;
 }
 .immi__navbar-links_container {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  flex: 1;
 }
 .immi__navbar-sign {
   display: flex;
@@ -30,28 +33,30 @@
 .immi__navbar-links_container p,
 .immi__navbar-sign p,
 .immi__navbar-menu_container p {
-  color: rgb(255, 255, 255);
-  font-family: var(--font-family);
+  color: rgb(6, 4, 4);
+  font-family: var(--font-family2);
   font-weight: 500;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 25px;
   text-transform: capitalize;
-  margin: 0 1rem;
+  margin: 0 2rem;
   cursor: pointer;
 }
 .immi__navbar-sign button,
 .immi__navbar-menu_container button {
   padding: 0.5rem 1rem;
-  background-color: #f84820;
-  color: white;
-  font-size: 15px;
+  background-color: #ffffff;
+  color: #060056;
+  font-size: 16px;
   line-height: 25px;
-  font-family: var(--font-family);
+  font-family: var(--font-family2);
   font-weight: 500;
-  border-radius: 3px;
+  border-radius: 20px;
+  width: 150px;
   border: 0;
   outline: none;
   cursor: pointer;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 .immi__navbar-menu {

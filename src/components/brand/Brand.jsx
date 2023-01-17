@@ -1,28 +1,29 @@
 import React from "react";
 import "./brand.css";
-import { google, slack, atlassian, dropbox, shopify } from "./import.js";
+import { pia, qatar, serene, emirates, dubai } from "./import.js";
 
 export const Brand = () => {
   return (
-    <div className="immi__brand-main section__padding">
-      <div className="immi__brand-text">
+    <div className="immi__brand-main section__padding ">
+      {/* <div className="immi__brand-text">
         <p>Trusted by hundreds talents from</p>
-      </div>
+      </div> */}
       <div className="immi__brand ">
         <div>
-          <img src={google} />
+          <img src={qatar} />
         </div>
         <div>
-          <img src={slack} />
+          <img src={emirates} />
         </div>
         <div>
-          <img src={atlassian} />
+          <img src={pia} />
         </div>
         <div>
-          <img src={dropbox} />
+          <img src={dubai} />
         </div>
+
         <div>
-          <img src={shopify} />
+          <img src={serene} />
         </div>
       </div>
     </div>

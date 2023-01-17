@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { RiMenu3Line, RiCloseLin, RiCloseLine } from "react-icons/ri";
-import logo from "../../assets/fanunn.svg";
+import logo from "../../assets/fanun.svg";
 import "./navbar.css";
 
 const Navbar = () => {
@@ -17,33 +17,38 @@ const Navbar = () => {
             <a href="#home">Home</a>
           </p>
           <p>
-            <a href="#wgpt3">Blog</a>
+            <a href="#wgpt3">About us</a>
           </p>
           <p>
-            <a href="#possibility">Careers</a>
+            <a href="#possibility">Solutions</a>
           </p>
           <p>
-            <a href="#features">Contacts</a>
+            <a href="#features">Blog</a>
           </p>
           <p>
-            <a href="#blog">Services</a>
+            <a href="#blog">Career</a>
+          </p>
+          <p>
+            <a href="#blog">FAQs</a>
+          </p>
+          <p>
+            <a href="#blog">Contact</a>
           </p>
         </div>
       </div>
       <div className="immi__navbar-sign">
-        <p>Sign in</p>
-        <button type="button">Sign up</button>
+        <button type="button">Take a test</button>
       </div>
       <div className="immi__navbar-menu">
         {toggleMenu ? (
           <RiCloseLine
-            color="#fff"
+            color="#000000"
             size={27}
             onClick={() => setToggleMenu(false)}
           />
         ) : (
           <RiMenu3Line
-            color="#fff"
+            color="#000000"
             size={27}
             onClick={() => setToggleMenu(true)}
           />
@@ -68,7 +73,6 @@ const Navbar = () => {
               </p>
             </div>
             <div className="immi__navbar-menu_container-links-sign">
-              <p>Sign in</p>
               <button type="button">Sign up</button>
             </div>
           </div>

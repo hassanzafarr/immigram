@@ -1,7 +1,7 @@
-import google from "../../assets/google.png";
-import slack from "../../assets/slack.png";
-import atlassian from "../../assets/atlassian.png";
-import dropbox from "../../assets/dropbox.png";
-import shopify from "../../assets/shopify.png";
+import dubai from "../../assets/dubai.png";
+import emirates from "../../assets/emirates.png";
+import serene from "../../assets/serene.png";
+import qatar from "../../assets/qatar.png";
+import pia from "../../assets/pia.png";
 
-export { shopify, dropbox, atlassian, slack, google };
+export { pia, qatar, serene, emirates, dubai };

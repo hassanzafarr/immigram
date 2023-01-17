@@ -4,7 +4,18 @@
   justify-content: center;
   align-items: center;
 
-  background: var(--color-footer);
+  background: #f9f9f9;
+}
+.immi__social {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+.immi__social div {
+  margin: 0.5rem;
+  cursor: pointer;
 }
 
 .immi__footer-links {
@@ -28,18 +39,26 @@
   flex-direction: column;
 }
 
-.immi__footer-links_logo img {
-  width: 118px;
-  height: 30px;
-
-  margin-bottom: 1rem;
-}
-
 .immi__footer-links_logo p {
-  font-family: var(--font-family);
-  font-size: 12px;
+  font-family: var(--font-family2);
+  font-size: 15px;
   line-height: 15px;
-  color: #fff;
+  color: rgb(0, 0, 0);
+}
+.immi__footer-links_logo button {
+  background: #060056;
+  border-radius: 10px;
+  color: white;
+  font-style: normal;
+  margin-top: 1rem;
+  font-size: 18px;
+  line-height: 30px;
+  padding: 0.5rem 3rem;
+  border: none;
+  outline: none;
+  font-family: var(--font-family2);
+  cursor: pointer;
+  min-width: 150px;
 }
 
 .immi__footer-links_div {
@@ -51,17 +70,17 @@
 .immi__footer-links_div h4 {
   font-size: 14px;
   line-height: 17px;
-  font-family: var(--font-family);
-  color: #fff;
+  font-family: var(--font-family2);
+  color: rgb(0, 0, 0);
 
   margin-bottom: 0.9rem;
 }
 
 .immi__footer-links_div p {
-  font-size: 12px;
+  font-size: 15px;
   line-height: 15px;
-  font-family: var(--font-family);
-  color: #fff;
+  font-family: var(--font-family2);
+  color: rgb(0, 0, 0);
 
   margin: 0.5rem 0;
   cursor: pointer;
@@ -74,10 +93,35 @@
 }
 
 .immi__footer-copyright p {
-  font-size: 12px;
-  font-family: var(--font-family);
+  font-size: 15px;
+  font-family: var(--font-family2);
   line-height: 15px;
-  color: #fff;
+  color: rgb(0, 0, 0);
+}
+
+.form__label {
+  font-family: var(--font-family2);
+  font-size: 1rem;
+  margin-left: 2rem;
+  margin-top: 0.7rem;
+  display: block;
+  transition: all 0.3s;
+  transform: translateY(0rem);
+}
+
+.form__input {
+  font-family: "Roboto", sans-serif;
+  color: #333;
+  font-size: 1rem;
+  margin: 0 auto;
+  padding: 0.75rem 1rem;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  border: 1px rgb(154, 151, 151) solid;
+  width: 100%;
+  display: block;
+  margin-top: 2rem;
+  transition: all 0.3s;
 }
 
 @media screen and (max-width: 850px) {
@@ -86,5 +130,12 @@
 @media screen and (max-width: 550px) {
   .immi__footer-links div {
     margin: 1rem 0;
+  }
+  .immi__footer-links_logo button {
+    font-size: 14px;
+    line-height: 28px;
+  }
+  .form__input {
+    font-size: 14px;
   }
 }

@@ -1,6 +1,13 @@
 import "./App.css";
-import { Blog, Header, Provide, Footer } from "./containers";
-import { Navbar, Brand } from "./components";
+import {
+  Blog,
+  Header,
+  Provide,
+  Footer,
+  WhyFanuun,
+  Process,
+} from "./containers";
+import { Navbar, Brand, CTA } from "./components";
 
 function App() {
   return (
@@ -8,9 +15,12 @@ function App() {
       <Navbar />
       <Header />
       <Brand />
-      <Provide />
+      <Process />
       <Blog />
+      <Provide />
 
+      <WhyFanuun />
+      <CTA />
       <Brand />
       <Footer />
     </div>

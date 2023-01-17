@@ -1,0 +1,25 @@
+import React from "react";
+import "./cta.css";
+import image from "../../assets/group29.png";
+const CTA = () => (
+  <div
+    className="gpt3__cta"
+    style={{
+      backgroundImage: `url(${image})`,
+      backgroundRepeat: "no-repeat",
+      backgroundSize: "cover",
+    }}
+  >
+    <div className="gpt3__cta-content">
+      <h3>
+        Are You Interested in <br />{" "}
+        <span class="future">Visa Applications?</span>
+      </h3>
+    </div>
+    <div className="gpt3__cta-btn">
+      <button type="button">Contact Us</button>
+    </div>
+  </div>
+);
+
+export default CTA;

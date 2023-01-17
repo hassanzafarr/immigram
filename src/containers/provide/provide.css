@@ -4,11 +4,11 @@
   margin-bottom: 5rem;
 }
 .immi__possibility-image {
-  flex: 1;
+  flex: 1 1;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  max-width: 1000px;
+  max-width: 730px;
   margin-right: 2rem;
 }
 .immi__possibility-image img {
