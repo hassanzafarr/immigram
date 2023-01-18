@@ -19,7 +19,7 @@ const Footer = () => (
     <div className="immi__footer-links">
       <div className="immi__footer-links_logo">
         <p>
-          Crechterwoord K12 182 DK Alknjkcb, <br /> All Rights Reserved
+          Crechter K12 182 DK Alknjkcb, <br /> All Rights Reserved
         </p>
 
         <input
