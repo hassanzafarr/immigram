@@ -12,20 +12,20 @@ import shape5 from "../../assets/shape5.png";
 
 const Provide = () => (
   <div
-    className="immi__possiblity-main section__padding"
+    className="fanuun__possiblity-main section__padding"
     // style={{
     //   backgroundImage: `url(${image})`,
     //   backgroundRepeat: "no-repeat",
     //   backgroundSize: "contain",
     // }}
   >
-    <div className="immi__possibility-content-heading ">
+    <div className="fanuun__possibility-content-heading ">
       <h1 className="gradient__text">
         Why do people choose <br /> Fanuun for immigration
       </h1>
     </div>
-    <div className="immi__possibility " id="possibility">
-      <div className="immi__possibility-content">
+    <div className="fanuun__possibility " id="possibility">
+      <div className="fanuun__possibility-content">
         <h1 className="gradient__text">Highest success rate</h1>
         <p>
           We know what to look for and how to best frame your prior work
@@ -34,13 +34,16 @@ const Provide = () => (
           collection of documents.
         </p>
       </div>
-      <div className="immi__possibility-image">
+      <div className="fanuun__possibility-image">
         <img src={shape1} alt="possibility" />
       </div>
     </div>
 
-    <div className="immi__possibility " id="possibility">
-      <div className="immi__possibility-content">
+    <div className="fanuun__possibilitytwo " id="possibility">
+      <div className="fanuun__possibility-image">
+        <img src={shape2} alt="possibility" />
+      </div>
+      <div className="fanuun__possibility-content">
         <h1 className="gradient__text">Customized surveys and feedbacks</h1>
         <p>
           When communicating with customers, we use a common lexicon. Following
@@ -48,26 +51,26 @@ const Provide = () => (
           need to succeed.
         </p>
       </div>
-      <div className="immi__possibility-image">
-        <img src={shape2} alt="possibility" />
-      </div>
     </div>
 
-    <div className="immi__possibility " id="possibility">
-      <div className="immi__possibility-content">
+    <div className="fanuun__possibility " id="possibility">
+      <div className="fanuun__possibility-content">
         <h1 className="gradient__text">Data- driven solutions</h1>
         <p>
           Comprehensive case studies and technical expertise inform an unique
           rating system, guides and tactics
         </p>
       </div>
-      <div className="immi__possibility-image">
+      <div className="fanuun__possibility-image">
         <img src={shape3} alt="possibility" />
       </div>
     </div>
 
-    <div className="immi__possibility " id="possibility">
-      <div className="immi__possibility-content">
+    <div className="fanuun__possibilitytwo " id="possibility">
+      <div className="fanuun__possibility-image">
+        <img src={shape4} alt="possibility" />
+      </div>
+      <div className="fanuun__possibility-content">
         <h1 className="gradient__text">Guided process</h1>
         <p>
           Data-driven suggestions on every single step of your case. Our expert
@@ -75,9 +78,6 @@ const Provide = () => (
           the way. You won't feel lost wondering what you should write or what
           document you have to submit
         </p>
-      </div>
-      <div className="immi__possibility-image">
-        <img src={shape4} alt="possibility" />
       </div>
     </div>
   </div>

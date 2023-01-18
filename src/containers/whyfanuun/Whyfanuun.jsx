@@ -9,7 +9,7 @@ export const WhyFanuun = () => {
           Why do people choose <br /> Fanuun for immigration?
         </h1>
       </div>
-      <div className="gpt3__whatgpt3 section__margin" id="wgpt3">
+      <div className="gpt3__whatgpt3 " id="wgpt3">
         <div className="gpt3__whatgpt3-feature">
           <Feature
             title="Duration : 1 Week"
