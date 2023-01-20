@@ -1,5 +1,5 @@
 import React from "react";
-import possibilityImage from "../../assets/transparent.gif";
+
 import "./process.css";
 import shape5 from "../../assets/shape5.png";
 const Process = () => (

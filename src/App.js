@@ -9,14 +9,16 @@ import {
 } from "./containers";
 import { Navbar, Brand, CTA } from "./components";
 import Scroll from "./components/SmoothScroll";
+import About from "./pages/About/About"
+
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-
+      {/* <Navbar />
       <Scroll />
       <Header />
+      <About />
       <Brand />
       <Process />
       <Blog />
@@ -24,7 +26,16 @@ function App() {
       <WhyFanuun />
       <CTA />
       <Brand />
+      <Footer /> */}
+
+      <Navbar />
+      <About />
+      {/* <Provide /> */}
+
+      <Scroll />
       <Footer />
+
+
     </div>
   );
 }
