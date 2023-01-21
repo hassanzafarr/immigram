@@ -1,41 +1,16 @@
 import "./App.css";
-import {
-  Blog,
-  Header,
-  Provide,
-  Footer,
-  WhyFanuun,
-  Process,
-} from "./containers";
-import { Navbar, Brand, CTA } from "./components";
 import Scroll from "./components/SmoothScroll";
-import About from "./pages/About/About"
-
+import About from "./pages/About/About";
+import Home from "./pages/Home/Home";
+import Services from "./pages/Services/Services";
 
 function App() {
   return (
     <div className="App">
-      {/* <Navbar />
+      {/* <Home /> */}
+      {/* <About /> */}
       <Scroll />
-      <Header />
-      <About />
-      <Brand />
-      <Process />
-      <Blog />
-      <Provide />
-      <WhyFanuun />
-      <CTA />
-      <Brand />
-      <Footer /> */}
-
-      <Navbar />
-      <About />
-      {/* <Provide /> */}
-
-      <Scroll />
-      <Footer />
-
-
+      <Services />
     </div>
   );
 }

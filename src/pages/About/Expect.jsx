@@ -5,7 +5,7 @@ import image from "../../assets/line.png";
 import "./expect.css";
 const Expect = () => (
   <div
-    className="fanuun__blog section__padding"
+    className="about__blog section__padding"
     id="blog"
     style={{
       backgroundImage: `url(${image})`,
@@ -13,15 +13,17 @@ const Expect = () => (
       backgroundSize: "cover",
     }}
   >
-    <div className="fanuun__blog-heading">
-      <h1 className="gradient__text">How Fanuun Works</h1>
+    <div className="about__blog-heading">
+      <h1 className="gradient__text">What to expect ?</h1>
       <p>
-        Out comprehensive vise consultation service can meet all of your
-        immigration needs. We'll guide you through the entire moving process and
-        help you decide which of the many excellent options is right for you
+        Our advisor are committed to being readily accessible to our clients,
+        Our modern office is equipped with cutting-edge tools and means of
+        communication to help us move your request along quickly no matter where
+        you are located in the world. We promise to alwats be forth right and
+        honest with you. You are important to us since you are a part of Fanuun
       </p>
     </div>
-    </div>
+  </div>
 );
 
 export default Expect;

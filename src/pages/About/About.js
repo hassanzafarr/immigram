@@ -1,57 +1,51 @@
-
 import React from "react";
 
-
-
 import "./about.css";
-import shape5 from "../../assets/shape5.png";
+
 import shape1 from "../../assets/about1.png";
 import shape2 from "../../assets/about2.png";
 import Expect from "./Expect.jsx";
-import Stream from "./Stream"
-import { Brand, CTA } from "../../components";
-
-
+import Stream from "./Stream";
+import { Brand, CTA, Navbar } from "../../components";
+import { Footer } from "../../containers";
 
 const About = () => (
-  <div className="fanuun__expect-main">
+  <div className="about__expect-main">
+    <Navbar />
     <div
-      className="fanuun__possiblity-main section__padding"
-    //   style={{
-    //     backgroundImage: `url(${image})`,
-    //     backgroundRepeat: "no-repeat",
-    //     backgroundSize: "contain",
-    //   }}
+      className="about__possiblity-main section__padding"
+      //   style={{
+      //     backgroundImage: `url(${image})`,
+      //     backgroundRepeat: "no-repeat",
+      //     backgroundSize: "contain",
+      //   }}
     >
-      <div className="fanuun__possibilitytop " id="possibility">
-        <div className="fanuun__possibility-content">
-          <h1 className="gradient__text">
-            Streamlining the immigration process for you
+      <div className="about__possibilitytop " id="possibility">
+        <div className="about__left-text">
+          <h1>
+            <span class="future">Designing</span> Strategies <br />
+            For Addressing <br /> <span class="future">Immigration </span>
+            Problems
           </h1>
-          <p>
-            Facilitating the adaptation, We assist you in shaping your future and
-            simplify your experience. Out expensive clientele continues to expand,
-            and we look forward to establishing a benchmark in the immigration and
-            Visa services market and pursuit of possibilities of immigrants
-          </p>
         </div>
-        <div className="fanuun__right-text">
+        <div className="about__right-text">
           <p>
-            Facilitating the adaptation, We assist you in shaping your future and
-            simplify your experience. Out expensive clientele continues to expand,
-            and we look forward to establishing a benchmark in the immigration and
-            Visa services market and pursuit of possibilities of immigrants
+            For almost 40 years, our immigrations consulting organizations has
+            been helping people just like you, Everything from registering your
+            business and locating recruiters or the proper personnel to advising
+            the best immigration program and assisting with community
+            integration is within reach, Here at Fanuun, We are commited to
+            helping you overcome the difficulties you may face as you prepare
+            for, undertake, and recover from an international relocation.
           </p>
         </div>
       </div>
 
-
-
-      <div className="fanuun__possibility " id="possibility">
-        <div className="fanuun__possibility-image">
+      <div className="about__possibility " id="possibility">
+        <div className="about__possibility-image">
           <img src={shape1} alt="possibility" />
         </div>
-        <div className="fanuun__possibility-content">
+        <div className="about__possibility-content">
           <h1 className="gradient__text">Highest success rate</h1>
           <p>
             We know what to look for and how to best frame your prior work
@@ -60,29 +54,31 @@ const About = () => (
             collection of documents.
           </p>
         </div>
-
       </div>
 
-      <div className="fanuun__possibilitytwo " id="possibility">
-
-        <div className="fanuun__possibility-content">
+      <div className="about__possibilitytwo " id="possibility">
+        <div className="about__possibility-content">
           <h1>Why Fanuun</h1>
           <p>
-            We are here for you every step of the journey, and out decades of experience will gurantee that you receive the best advice possible
+            We are here for you every step of the journey, and out decades of
+            experience will gurantee that you receive the best advice possible
           </p>
 
           <h2>Accurate Guidance</h2>
           <p>
-            Our business consultants, attorneys, accountants, and SME's come from a variety of industries in order to assist and support you
+            Our business consultants, attorneys, accountants, and SME's come
+            from a variety of industries in order to assist and support you
           </p>
-
 
           <h2>Asserting Out Presence</h2>
           <p>
-            With out existing presence in Canada, the United States, the United Kingdom, the Middle East, and South Asia, as well as out imminent expansion plans to new regions and we are able to reach the right individuals for the right programs around the worlds
+            With out existing presence in Canada, the United States, the United
+            Kingdom, the Middle East, and South Asia, as well as out imminent
+            expansion plans to new regions and we are able to reach the right
+            individuals for the right programs around the worlds
           </p>
         </div>
-        <div className="fanuun__possibility-image">
+        <div className="about__possibility-image">
           <img src={shape2} alt="possibility" />
         </div>
       </div>
@@ -91,8 +87,8 @@ const About = () => (
     <Stream />
     <CTA />
     <Brand />
+    <Footer />
   </div>
-
 );
 
 export default About;

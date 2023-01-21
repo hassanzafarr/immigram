@@ -5,7 +5,7 @@ import image from "../../assets/aboutlogo.png";
 import "./stream.css";
 const Stream = () => (
   <div
-    className="immi__blog section__padding"
+    className="about__blog section__padding"
     id="blog"
     style={{
       backgroundImage: `url(${image})`,
@@ -13,15 +13,17 @@ const Stream = () => (
       backgroundSize: "contain",
     }}
   >
-    <div className="immi__blog-heading">
-      <h1 className="gradient__text">How Fanuun Works</h1>
+    <div className="about__blog-heading">
+      <h1 className="gradient__text">
+        Streamlining the immigration process for you
+      </h1>
       <p>
-        Out comprehensive vise consultation service can meet all of your
-        immigration needs. We'll guide you through the entire moving process and
-        help you decide which of the many excellent options is right for you
+        We assist you in shaping your future and simplify your experience. Our
+        expensive cliente continues to expand, and we look forward to
+        establishing a bechmark in the Immigration and Visa services market
       </p>
     </div>
-    </div>
+  </div>
 );
 
 export default Stream;
