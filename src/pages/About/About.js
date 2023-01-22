@@ -8,6 +8,7 @@ import Expect from "./Expect.jsx";
 import Stream from "./Stream";
 import { Brand, CTA, Navbar } from "../../components";
 import { Footer } from "../../containers";
+import Scroll from "../../components/SmoothScroll";
 
 const About = () => (
   <div className="about__expect-main">
@@ -88,6 +89,7 @@ const About = () => (
     <CTA />
     <Brand />
     <Footer />
+    <Scroll />
   </div>
 );
 

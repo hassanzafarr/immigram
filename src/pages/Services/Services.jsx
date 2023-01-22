@@ -13,6 +13,7 @@ import { Footer } from "../../containers";
 import Reloc from "./Reloc";
 import Stream from "../About/Stream";
 import Itinerary from "./Itenari";
+import Scroll from "../../components/SmoothScroll";
 
 const Services = () => (
   <div className="services__expect-main">
@@ -73,6 +74,7 @@ const Services = () => (
     <Itinerary />
     <Stream />
     <CTA />
+    <Scroll />
     <Brand />
     <Footer />
   </div>

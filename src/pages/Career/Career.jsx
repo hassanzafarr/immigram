@@ -2,15 +2,10 @@ import React from "react";
 
 import "./career.css";
 
-import shape1 from "../../assets/man.png";
-import meet from "../../assets/Group 44.png";
-import meet2 from "../../assets/Group 45.png";
-
-// import Expect from "./Expect.jsx";
-// import Stream from "./Stream";
-import { Brand, CTA, Navbar } from "../../components";
+import { Brand, Navbar } from "../../components";
 import { Footer } from "../../containers";
 import Position from "./Positions";
+import Scroll from "../../components/SmoothScroll";
 
 const Career = () => (
   <div className="career__expect-main">
@@ -51,6 +46,7 @@ const Career = () => (
         </p>
       </div>
     </div>
+    <Scroll />
     <Position />
     <Brand />
     <Footer />

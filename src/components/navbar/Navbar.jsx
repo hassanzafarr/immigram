@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { RiMenu3Line, RiCloseLin, RiCloseLine } from "react-icons/ri";
 import logo from "../../assets/fanun.svg";
 import "./navbar.css";
-
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -15,25 +15,25 @@ const Navbar = () => {
         </div>
         <div className="immi__navbar-links_container">
           <p>
-            <a href="#home">Home</a>
+            <Link to="/">Home</Link>
           </p>
           <p>
-            <a href="#wgpt3">About us</a>
+            <Link to="/about">About us</Link>
           </p>
           <p>
-            <a href="#possibility">Solutions</a>
+            <Link to="/solutions">Solutions</Link>
           </p>
           <p>
-            <a href="#features">Blog</a>
+            <Link to="/career">Career</Link>
           </p>
           <p>
-            <a href="#blog">Career</a>
+            <Link to="/uk">UK Visa</Link>
           </p>
           <p>
-            <a href="#blog">FAQs</a>
+            <Link to="/us">US Visa</Link>
           </p>
           <p>
-            <a href="#blog">Contact</a>
+            <Link to="/contact">Contact</Link>
           </p>
         </div>
       </div>

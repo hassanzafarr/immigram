@@ -5,6 +5,8 @@ import shape5 from "../../assets/Group 48.png";
 import line from "../../assets/line.png";
 import { Brand, CTA, Navbar } from "../../components";
 import { Footer } from "../../containers";
+import Scroll from "../../components/SmoothScroll";
+
 const US = () => (
   <div className="us__main-container">
     <Navbar />
@@ -107,6 +109,7 @@ const US = () => (
         </div>
       </div>
     </div>
+    <Scroll />
     <Brand />
     <Footer />
   </div>

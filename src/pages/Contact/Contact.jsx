@@ -5,6 +5,7 @@ import shape5 from "../../assets/Group 46.png";
 import line from "../../assets/line.png";
 import { Brand, Navbar } from "../../components";
 import { Footer } from "../../containers";
+import Scroll from "../../components/SmoothScroll";
 const Contact = () => (
   <div className="contact__main-container">
     <Navbar />
@@ -43,6 +44,7 @@ const Contact = () => (
       </div>
     </div>
     <Brand />
+    <Scroll />
     <Footer />
   </div>
 );

@@ -5,6 +5,7 @@ import shape5 from "../../assets/Group 47.png";
 import line from "../../assets/line.png";
 import { Brand, Navbar } from "../../components";
 import { Footer } from "../../containers";
+import Scroll from "../../components/SmoothScroll";
 const UK = () => (
   <div className="uk__main-container">
     <Navbar />
@@ -57,6 +58,7 @@ const UK = () => (
       </div>
     </div>
     <Brand />
+    <Scroll />
     <Footer />
   </div>
 );
