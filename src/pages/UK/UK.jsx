@@ -13,8 +13,8 @@ const UK = () => (
       <div className="uk__possibility " id="possibility">
         <div className="uk__possibility-content">
           <h1 className="gradient__text">
-            <span class="future"> UK </span> Global Talent{" "}
-            <span class="future"> Visas</span>
+            <span className="future"> UK </span> Global Talent{" "}
+            <span className="future"> Visas</span>
           </h1>
         </div>
         <div className="uk__possibility-image">

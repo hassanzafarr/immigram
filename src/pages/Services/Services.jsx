@@ -29,7 +29,7 @@ const Services = () => (
       <div className="services__possibility " id="possibility">
         <div className="services__possibility-content">
           <h1 className="gradient__text">
-            The<span class="future"> Best </span> At Your Service
+            The<span className="future"> Best </span> At Your Service
           </h1>
           <p>
             With fully educated Immigration advisors on staff, we offer
@@ -73,7 +73,7 @@ const Services = () => (
       </div>
     </div>
     <Reloc />
-    <Itinerary />
+    {/* <Itinerary /> */}
     <Stream />
     <CTA />
     {/* <Scroll /> */}

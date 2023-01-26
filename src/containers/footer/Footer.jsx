@@ -2,7 +2,7 @@ import React from "react";
 import image from "../../assets/Group28.png";
 
 import "./footer.css";
-import { facebook, instagram, linkedin, telegram } from "./import";
+import { facebook, instagram, linkedin, twitter } from "./import";
 <link
   rel="stylesheet"
   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -18,7 +18,7 @@ const Footer = () => (
   >
     <div className="immi__footer-links">
       <div className="immi__footer-links_logo">
-        <p>Subscribe for our new letter</p>
+        <p>Subscribe for our newsletter</p>
 
         <input
           type="text"
@@ -55,15 +55,28 @@ const Footer = () => (
 
     <div className="immi__footer-copyright">
       <p>Follow Us</p>
-      <div className="immi__social ">
+      <div className="immi__social">
         <div>
-          <img src={facebook} alt="facebook" />
+          <a href="https://www.facebook.com/Fanuunco">
+            <img src={facebook} alt="facebook" />
+          </a>
         </div>
         <div>
-          <img src={instagram} alt="instagram" />
+          <a href="https://www.instagram.com/">
+            <img src={instagram} alt="instagram" />
+          </a>
         </div>
         <div>
-          <img src={linkedin} alt="linkedin" />
+          <a href="https://www.linkedin.com/company/fanuun/">
+            {" "}
+            <img src={linkedin} alt="linkedin" />{" "}
+          </a>
+        </div>
+        <div>
+          <a href="https://twitter.com/FANUUNcon">
+            {" "}
+            <img src={twitter} alt="twitter" />
+          </a>
         </div>
       </div>
     </div>

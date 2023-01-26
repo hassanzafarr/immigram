@@ -14,7 +14,7 @@ const Header = () => (
   >
     <div className="immi__header-content">
       <h1 className="gradient__text">
-        The <span class="future">art</span> of <br />
+        The <span className="future">art</span> of <br />
         immigration
       </h1>
       <p>

@@ -19,9 +19,9 @@
 
 .immi__blog-container_article-content h5 {
   font-family: var(--font-family2);
-  font-size: 14.65px;
+  font-size: 16px;
   line-height: 25px;
-  font-weight: 500;
+  font-weight: 400;
   margin-bottom: 1rem;
   color: rgb(0, 0, 0);
 }

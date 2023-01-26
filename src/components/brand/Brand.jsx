@@ -1,6 +1,6 @@
 import React from "react";
 import "./brand.css";
-import { us, irc, homeoffice } from "./import.js";
+import { uk, homeland, imi } from "./import.js";
 
 export const Brand = () => {
   return (
@@ -10,13 +10,13 @@ export const Brand = () => {
       </div> */}
       <div className="immi__brand ">
         <div>
-          <img src={us} />
+          <img src={uk} />
         </div>
         <div>
-          <img src={irc} />
+          <img src={homeland} />
         </div>
         <div>
-          <img src={homeoffice} />
+          <img src={imi} />
         </div>
       </div>
     </div>

@@ -70,10 +70,9 @@
   align-items: flex-start;
   flex-direction: column;
   padding: 4rem;
-  margin-left: 2rem;
   background-color: #060056d7;
   border-radius: 20px 0px 0px 20px;
-  /* height: 20em; */
+  
   height: 20em;
 }
 .services__second-left-text h1 {

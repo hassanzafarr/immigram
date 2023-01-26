@@ -1,5 +1,5 @@
-import us from "../../assets/01.png";
-import irc from "../../assets/02.png";
-import homeoffice from "../../assets/03.png";
+import uk from "../../assets/ukimmi.png";
+import homeland from "../../assets/homeland.png";
+import imi from "../../assets/imi.png"
 
-export { irc, homeoffice, us };
+export { uk, homeland, imi };

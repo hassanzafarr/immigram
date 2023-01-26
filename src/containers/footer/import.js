@@ -1,6 +1,6 @@
 import facebook from "../../assets/facebook.png";
 import instagram from "../../assets/insta.png";
 import linkedin from "../../assets/link.png";
-import telegram from "../../assets/tel.png";
+import twitter from "../../assets/twitter.png";
 
-export { facebook, instagram, linkedin, telegram };
+export { facebook, instagram, linkedin, twitter };

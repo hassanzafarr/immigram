@@ -27,10 +27,13 @@ const Navbar = () => {
             <Link to="/career">Career</Link>
           </p>
           <p>
-            <Link to="/uk">UK Visa</Link>
+            <Link to="/uk">UK </Link>
           </p>
           <p>
-            <Link to="/us">US Visa</Link>
+            <Link to="/us">US</Link>
+          </p>
+          <p>
+            <Link to="/canada">Canada</Link>
           </p>
           <p>
             <Link to="/contact">Contact</Link>
@@ -76,11 +79,14 @@ const Navbar = () => {
                 <Link to="/us">US Visa</Link>
               </p>
               <p>
+                <Link to="/canada">Canada</Link>
+              </p>
+              <p>
                 <Link to="/contact">Contact</Link>
               </p>
             </div>
             <div className="immi__navbar-menu_container-links-sign">
-              <button type="button">Sign up</button>
+              <button type="button">Test</button>
             </div>
           </div>
         )}

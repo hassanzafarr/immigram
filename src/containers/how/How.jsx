@@ -28,22 +28,22 @@ const Blog = () => (
         <Article
           text="Assess your prospects"
           number="1"
-          para="Guided support from the platform to help you shape your unique story. Collection and smart review of all your data with automated feedback and smart suggestions"
+          para="Our data-driven scoring methodology predicts your eligibility with 98% accuracy. Start your immigration adventure by consulting with us."
         />
         <Article
           text="Develop a compelling request"
           number="2"
-          para="Guided support from the platform to help you shape your unique story. Collection and smart review of all your data with automated feedback and smart suggestions"
+          para="We will provide guided assistance to help you shape your unique request. All of your data is collected and intelligently reviewed, with automated feedback and intelligent suggestions."
         />
         <Article
           text="Prepare your visa application"
           number="3"
-          para="One-stop account for any further needs. Access various post-visa adaptation services with our partners. Finding a flat? Opening a bank account? You can count on us"
+          para="The use of secure, encrypted cloud storage, pre-filled forms, and a final security check with our go-to attorneys provide a smooth and risk-free submission process."
         />
         <Article
           text="Migrate to your desired destination"
           number="4"
-          para="data-driven scoring system helps predict your eligibility with 98% accuracy. Take a test to start your immigration journey"
+          para="Even after the move is complete, we'll be here to help. Utilize the many post-visa adaptation services provided by our affiliates. Apartment hunting? Making your first bank deposit? We'll be there to help."
         />
       </div>
     </div>
