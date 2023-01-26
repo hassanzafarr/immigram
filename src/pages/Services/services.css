@@ -48,7 +48,7 @@
   color: var(--color-text);
   font-family: var(--font-family2);
   font-weight: 400;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 30px;
 
   margin-bottom: 2rem;
@@ -82,11 +82,12 @@
   font-size: 34px;
   line-height: 45px;
   color: white;
+  margin-bottom: 1rem;
 }
 .services__second-left-text p {
   font-family: var(--font-family2);
   font-weight: 200;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 30px;
   color: white;
 }
@@ -129,11 +130,12 @@
   font-size: 34px;
   line-height: 45px;
   color: white;
+  margin-bottom: 1rem;
 }
 .services__third-right-text p {
   font-family: var(--font-family2);
   font-weight: 200;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 30px;
   color: white;
 }

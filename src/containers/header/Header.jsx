@@ -14,8 +14,8 @@ const Header = () => (
   >
     <div className="immi__header-content">
       <h1 className="gradient__text">
-        The <span class="future">Future</span> of <br />
-        Relocation is <span class="future">Tech</span>
+        The <span class="future">art</span> of <br />
+        immigration
       </h1>
       <p>
         Facilitating the adaptation, integration, and pursuit of <br />

@@ -22,12 +22,12 @@ const Career = () => (
         <div className="career__left-text">
           <h1>
             Be a part of
-            <span class="future"> Fanuun </span>
+            <span class="future"> FANUUN</span>
           </h1>
         </div>
         <div className="career__right-text">
           <p>
-            Fanuun is always on the lookout for talented and dedicated
+            FANUUN is always on the lookout for talented and dedicated
             individuals to join our team. We offer a variety of exciting career
             opportunities, competitive salary pakages, and opportunities for
             professional grwoth and development
@@ -46,7 +46,7 @@ const Career = () => (
         </p>
       </div>
     </div>
-    <Scroll />
+    {/* <Scroll /> */}
     <Position />
     <Brand />
     <Footer />

@@ -47,8 +47,8 @@ const Services = () => (
           <h1>Providing Assistance along the process</h1>
           <p>
             To improve your chances of obtaining an immigrant visa and alleviate
-            any anxiety you may have about the migration process, Fanuun is here
-            to lend a helping hand
+            any anxiety you may have about the migration process, FANUUN is here
+            to lend a helping hand.
           </p>
         </div>
         <div className="services__second-right-image">
@@ -61,11 +61,13 @@ const Services = () => (
           <img src={meet2} alt="man" />
         </div>
         <div className="services__third-right-text">
-          <h1>Providing Assistance along the process</h1>
+          <h1>Visa Acquisition Process</h1>
           <p>
-            To improve your chances of obtaining an immigrant visa and alleviate
-            any anxiety you may have about the migration process, Fanuun is here
-            to lend a helping hand
+            The FANUUN team offers immigration options that may lead to one of
+            the best countries to live permanently, along with through
+            assistance and expert advice for all facets of the move, from
+            developing a customized Case Map and gathering all supporting
+            evidence to submitting an application.
           </p>
         </div>
       </div>
@@ -74,7 +76,7 @@ const Services = () => (
     <Itinerary />
     <Stream />
     <CTA />
-    <Scroll />
+    {/* <Scroll /> */}
     <Brand />
     <Footer />
   </div>

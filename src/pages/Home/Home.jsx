@@ -1,6 +1,5 @@
 import React from "react";
 
-import "./home.css";
 import {
   Blog,
   Header,
@@ -16,7 +15,7 @@ import Scroll from "../../components/SmoothScroll";
 const Home = () => (
   <div className="home-main">
     <Navbar />
-    <Scroll />
+    {/* <Scroll /> */}
     <Header />
     <Brand />
     <Process />

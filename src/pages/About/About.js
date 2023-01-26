@@ -31,11 +31,11 @@ const About = () => (
         </div>
         <div className="about__right-text">
           <p>
-            For almost 40 years, our immigrations consulting organizations has
-            been helping people just like you, Everything from registering your
+            For many years, our immigration consulting organisations have been
+            helping people just like you, Everything from registering your
             business and locating recruiters or the proper personnel to advising
             the best immigration program and assisting with community
-            integration is within reach, Here at Fanuun, We are commited to
+            integration is within reach, Here at Fanuun, we are committed to
             helping you overcome the difficulties you may face as you prepare
             for, undertake, and recover from an international relocation.
           </p>
@@ -47,12 +47,23 @@ const About = () => (
           <img src={shape1} alt="possibility" />
         </div>
         <div className="about__possibility-content">
-          <h1 className="gradient__text">Highest success rate</h1>
+          <h1 className="gradient__text">
+            Serving Immigrants with Pride and Efficiency
+          </h1>
           <p>
-            We know what to look for and how to best frame your prior work
-            experience. The success of your relocation request depends on your
-            abilty to present your case as a captivating narrative rather than a
-            collection of documents.
+            We are the industry's premier immigration and business consulting
+            firm, and are known as "The Enabler" in the industry. We take great
+            pride in it.
+          </p>
+          <p>
+            Specifically, we concentrate on citizenship and immigration schemes
+            that are tied to monetary investments.
+          </p>
+          <p>
+            We, as immigrants, have assembled a team of highly skilled business
+            managers, designers, market researchers, analysts, lawyers, and
+            others to help us overcome the obstacles we encountered throughout
+            our immigration.
           </p>
         </div>
       </div>
@@ -61,22 +72,22 @@ const About = () => (
         <div className="about__possibility-content">
           <h1>Why Fanuun</h1>
           <p>
-            We are here for you every step of the journey, and out decades of
-            experience will gurantee that you receive the best advice possible
+            We are here for you every step of the journey, and our decades of
+            experience will guarantee that you receive the best advice possible.
           </p>
 
           <h2>Accurate Guidance</h2>
           <p>
-            Our business consultants, attorneys, accountants, and SME's come
-            from a variety of industries in order to assist and support you
+            Our business consultants, attorneys, and other SME's come from a
+            variety of industries in order to assist and support you.
           </p>
 
           <h2>Asserting Out Presence</h2>
           <p>
-            With out existing presence in Canada, the United States, the United
+            With our existing presence in Canada, the United States, the United
             Kingdom, the Middle East, and South Asia, as well as out imminent
-            expansion plans to new regions and we are able to reach the right
-            individuals for the right programs around the worlds
+            expansion plans to new regions, we are able to reach the right
+            individuals for the right programs around the world.
           </p>
         </div>
         <div className="about__possibility-image">
@@ -89,7 +100,7 @@ const About = () => (
     <CTA />
     <Brand />
     <Footer />
-    <Scroll />
+    {/* <Scroll /> */}
   </div>
 );
 

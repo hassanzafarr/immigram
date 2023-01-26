@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { RiMenu3Line, RiCloseLin, RiCloseLine } from "react-icons/ri";
+import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import logo from "../../assets/fanun.svg";
 import "./navbar.css";
 import { Link } from "react-router-dom";
@@ -21,7 +21,7 @@ const Navbar = () => {
             <Link to="/about">About us</Link>
           </p>
           <p>
-            <Link to="/solutions">Solutions</Link>
+            <Link to="/solutions">Services</Link>
           </p>
           <p>
             <Link to="/career">Career</Link>
@@ -58,19 +58,25 @@ const Navbar = () => {
           <div className="immi__navbar-menu_container scale-up-center">
             <div className="immi__navbar-menu_container-links">
               <p>
-                <a href="#home">Home</a>
+                <Link to="/">Home</Link>
               </p>
               <p>
-                <a href="#wgpt3">Blog</a>
+                <Link to="/about">About us</Link>
               </p>
               <p>
-                <a href="#possibility">Contacts</a>
+                <Link to="/solutions">Services</Link>
               </p>
               <p>
-                <a href="#features">Case Studies</a>
+                <Link to="/career">Career</Link>
               </p>
               <p>
-                <a href="#blog">Services</a>
+                <Link to="/uk">UK Visa</Link>
+              </p>
+              <p>
+                <Link to="/us">US Visa</Link>
+              </p>
+              <p>
+                <Link to="/contact">Contact</Link>
               </p>
             </div>
             <div className="immi__navbar-menu_container-links-sign">

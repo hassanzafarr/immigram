@@ -14,75 +14,11 @@ const Position = () => (
     <div className="position__cta">
       <div className="position__cta-content">
         <div className="position__heading">
-          <h3>Head of Finance</h3>
-        </div>
-        <div className="position__icons">
-          <p>
-            <CiLocationOn
-              style={{ fontSize: "20px", color: "red", marginRight: "0.3rem" }}
-            />{" "}
-            Remote
-          </p>
-          <p>
-            <CiClock1
-              style={{ fontSize: "20px", color: "red", marginRight: "0.3rem" }}
-            />{" "}
-            Full Time
-          </p>
+          <h3>Upload Your Resume</h3>
         </div>
       </div>
       <div className="position__cta-btn">
-        <button type="button">View More</button>
-      </div>
-    </div>
-
-    <div className="position__cta">
-      <div className="position__cta-content">
-        <div className="position__heading">
-          <h3>Marketing Director</h3>
-        </div>
-        <div className="position__icons">
-          <p>
-            <CiLocationOn
-              style={{ fontSize: "20px", color: "red", marginRight: "0.3rem" }}
-            />{" "}
-            Remote
-          </p>
-          <p>
-            <CiClock1
-              style={{ fontSize: "20px", color: "red", marginRight: "0.3rem" }}
-            />{" "}
-            Full Time
-          </p>
-        </div>
-      </div>
-      <div className="position__cta-btn">
-        <button type="button">View More</button>
-      </div>
-    </div>
-
-    <div className="position__cta">
-      <div className="position__cta-content">
-        <div className="position__heading">
-          <h3>Frontend Enigineer</h3>
-        </div>
-        <div className="position__icons">
-          <p>
-            <CiLocationOn
-              style={{ fontSize: "20px", color: "red", marginRight: "0.3rem" }}
-            />{" "}
-            Remote
-          </p>
-          <p>
-            <CiClock1
-              style={{ fontSize: "20px", color: "red", marginRight: "0.3rem" }}
-            />{" "}
-            Full Time
-          </p>
-        </div>
-      </div>
-      <div className="position__cta-btn">
-        <button type="button">View More</button>
+        <button type="button">Upload</button>
       </div>
     </div>
   </div>

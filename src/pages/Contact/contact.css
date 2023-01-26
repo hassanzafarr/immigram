@@ -6,9 +6,6 @@
 .contact__possibility-image {
   flex: 1;
   display: flex;
-  /* justify-content: flex-start;
-      align-items: flex-start; */
-  /* max-width: 35rem; */
   margin-right: 6rem;
 }
 .contact__possibility-image img {
@@ -37,7 +34,6 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
-
   margin-bottom: 2rem;
 }
 

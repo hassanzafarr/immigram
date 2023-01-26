@@ -36,15 +36,15 @@ const Contact = () => (
             always here to help!
           </h1>
           <p>
-            Please reach out to us by calling us at
-            <span class="future"> +0016478734235 </span> or email us at
+            Please reach out to us by Whatsapp at
+            <span class="future"> +1(647)873-4235 </span> or email us at
             <span class="future"> info@fanuun.com</span>
           </p>
         </div>
       </div>
     </div>
     <Brand />
-    <Scroll />
+    {/* <Scroll /> */}
     <Footer />
   </div>
 );

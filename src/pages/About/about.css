@@ -110,7 +110,7 @@
 
 .about__possibility-content h1 {
   font-family: var(--font-family);
-  font-weight: 800;
+  font-weight: 600;
   font-size: 34px;
   line-height: 45px;
   margin: 1rem 0;
@@ -131,7 +131,7 @@
   font-family: var(--font-family2);
   font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 27px;
 
   margin-bottom: 2rem;
 }

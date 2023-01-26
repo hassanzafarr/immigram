@@ -14,33 +14,39 @@ const Reloc = () => (
     }}
   >
     <div className="services__blog-heading ">
-      <h1 className="gradient__text">What to expect ?</h1>
+      <h1 className="gradient__text">Post-Relocation Services</h1>
       <p>
-        Our advisor are committed to being readily accessible to our clients,
-        Our modern office is equipped with cutting-edge tools and means of
-        communication to help us move your request along quickly no matter where
-        you are located in the world. We promise to alwats be forth right and
-        honest with you. You are important to us since you are a part of Fanuun
+        Although securing a visa is a major milestone in the immigration
+        journey, our job does not end there. To accomplish this, we have teamed
+        up with some of the best names in the fields of education, real estate,
+        and employment 
       </p>
-      <div className="services__reloc-content">
-        <h1>Why Fanuun</h1>
+      <div className="service__reloc-content">
+        <h1>Accomodation</h1>
         <p>
-          We are here for you every step of the journey, and out decades of
-          experience will gurantee that you receive the best advice possible
+          We help immigrants in all phases of the home buying process, including
+          the initial search, tours, offers, and paperwork. <br />
+          Our team of professionals will compile listings from multiple sites
+          and then sort them according to your criteria. It handles the entire
+          renting process on your behalf so you can focus on your other
+          responsibilities without interruptions.
         </p>
 
-        <h2>Accurate Guidance</h2>
+        <h2>Career</h2>
         <p>
-          Our business consultants, attorneys, accountants, and SME's come from
-          a variety of industries in order to assist and support you
+          We have built up a database of qualified IT professionals seeking new
+          employment prospects, as well as reputable businesses actively
+          recruiting in this area.
+          <br />
+          We're currently utilizing our network to bring these two communities
+          together for mutual benefit.
         </p>
 
-        <h2>Asserting Out Presence</h2>
+        <h2>Banking and Finance</h2>
         <p>
-          With out existing presence in Canada, the United States, the United
-          Kingdom, the Middle East, and South Asia, as well as out imminent
-          expansion plans to new regions and we are able to reach the right
-          individuals for the right programs around the worlds
+          We have worked with a business banking provider to assist startups,
+          small businesses, and sole proprietors in opening a ceremony current
+          account and optimizing their financial operation.
         </p>
       </div>
     </div>

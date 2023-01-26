@@ -12,8 +12,7 @@ const CTA = () => (
   >
     <div className="gpt3__cta-content">
       <h3>
-        Are You Interested in <br />{" "}
-        <span class="future">Visa Applications?</span>
+        Are You Interested in <br /> <span class="future">Immigration?</span>
       </h3>
     </div>
     <div className="gpt3__cta-btn">

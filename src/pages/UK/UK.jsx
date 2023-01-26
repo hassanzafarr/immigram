@@ -13,7 +13,7 @@ const UK = () => (
       <div className="uk__possibility " id="possibility">
         <div className="uk__possibility-content">
           <h1 className="gradient__text">
-            <span class="future"> UK </span> Investor{" "}
+            <span class="future"> UK </span> Global Talent{" "}
             <span class="future"> Visas</span>
           </h1>
         </div>
@@ -58,7 +58,7 @@ const UK = () => (
       </div>
     </div>
     <Brand />
-    <Scroll />
+    {/* <Scroll /> */}
     <Footer />
   </div>
 );

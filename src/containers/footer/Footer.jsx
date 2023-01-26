@@ -18,9 +18,7 @@ const Footer = () => (
   >
     <div className="immi__footer-links">
       <div className="immi__footer-links_logo">
-        <p>
-          Crechter K12 182 DK Alknjkcb, <br /> All Rights Reserved
-        </p>
+        <p>Subscribe for our new letter</p>
 
         <input
           type="text"
@@ -30,11 +28,14 @@ const Footer = () => (
           required=""
         />
         <button type="button">Subscribe</button>
+        <br />
+        <p>By filling out the form you agree with our Terms and Conditions</p>
       </div>
+
       <div className="immi__footer-links_div">
         <h4>Home</h4>
         <p>About us</p>
-        <p>Solutions</p>
+        <p>Services</p>
       </div>
       <div className="immi__footer-links_div">
         <h4>Email</h4>
@@ -44,8 +45,11 @@ const Footer = () => (
       </div>
       <div className="immi__footer-links_div">
         <h4>Get in touch</h4>
-        <p>Karachi / Dubai / Vancouver</p>
-        <p>+0016478734235</p>
+        <p>Karachi</p>
+        <p>Dubai</p>
+        <p>Vancouver</p>
+        <p>Whatsapp us</p>
+        <p>+1(647)873-4235</p>
       </div>
     </div>
 
@@ -60,9 +64,6 @@ const Footer = () => (
         </div>
         <div>
           <img src={linkedin} alt="linkedin" />
-        </div>
-        <div>
-          <img src={telegram} alt="telegram" />
         </div>
       </div>
     </div>

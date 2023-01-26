@@ -104,12 +104,13 @@ const US = () => (
             <br />
             They need unique knowledge and skills that set them apart from other
             professionals, and apply those qualities to activities that bring
-            benefit to the nation D. Influence the country
+            benefit to the nation D. Influence the country. <br />
+            We also provide on demand visa options such as investors etc.
           </p>
         </div>
       </div>
     </div>
-    <Scroll />
+    {/* <Scroll /> */}
     <Brand />
     <Footer />
   </div>

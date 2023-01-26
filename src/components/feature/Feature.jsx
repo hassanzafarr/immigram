@@ -1,6 +1,6 @@
 import React from "react";
 import "./feature.css";
-export const Feature = ({ title, text }) => {
+export const Feature = ({ title, text, isList }) => {
   return (
     <div className="gpt3__features-container__feature">
       <div />
@@ -9,7 +9,15 @@ export const Feature = ({ title, text }) => {
         <h1>{title}</h1>
       </div>
       <div className="gpt3__features-container_feature-text">
-        <p>{text}</p>
+        {!isList ? (
+          <p>{text}</p>
+        ) : (
+          <ul>
+            {text.map((e) => (
+              <li>{e}</li>
+            ))}
+          </ul>
+        )}
       </div>
     </div>
   );

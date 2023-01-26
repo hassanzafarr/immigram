@@ -41,8 +41,8 @@
 
 .immi__footer-links_logo p {
   font-family: var(--font-family2);
-  font-size: 15px;
-  line-height: 15px;
+  font-size: 20px;
+  line-height: 30px;
   color: rgb(0, 0, 0);
 }
 .immi__footer-links_logo button {
@@ -77,8 +77,8 @@
 }
 
 .immi__footer-links_div p {
-  font-size: 15px;
-  line-height: 15px;
+  font-size: 20px;
+  line-height: 20px;
   font-family: var(--font-family2);
   color: rgb(0, 0, 0);
 
@@ -93,9 +93,9 @@
 }
 
 .immi__footer-copyright p {
-  font-size: 15px;
+  font-size: 20px;
   font-family: var(--font-family2);
-  line-height: 15px;
+  line-height: 20px;
   color: rgb(0, 0, 0);
 }
 
@@ -125,6 +125,9 @@
 }
 
 @media screen and (max-width: 850px) {
+  .immi__footer-links p {
+    font-size: 16px;
+  }
 }
 
 @media screen and (max-width: 550px) {
@@ -132,10 +135,10 @@
     margin: 1rem 0;
   }
   .immi__footer-links_logo button {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 28px;
   }
   .form__input {
-    font-size: 14px;
+    font-size: 16px;
   }
 }

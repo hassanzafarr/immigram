@@ -1,7 +1,7 @@
 .position__cta {
   display: flex;
   flex: 1;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   padding: 3rem;
   text-align: center;
@@ -13,7 +13,7 @@
 
 .position__cta-content h3 {
   font-style: normal;
-  font-weight: 600;
+  font-weight: 800;
   font-size: 30px;
   line-height: 45px;
   font-family: var(--font-family);
@@ -22,7 +22,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 5rem;
+  margin-top: 2rem;
 }
 .position__cta-btn button {
   background: #060056;
@@ -39,21 +39,6 @@
   cursor: pointer;
   min-width: 150px;
 }
-.position__icons {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-}
-.position__icons p {
-  color: rgb(0, 0, 0);
-  font-family: var(--font-family2);
-  font-weight: 200;
-  font-size: 16px;
-  line-height: 30px;
-  display: flex;
-  align-items: center;
-  margin-right: 1rem;
-}
 
 @media screen and (max-width: 650px) {
   .position__cta {
@@ -62,10 +47,6 @@
 
   .position__cta-btn {
     margin: 2rem 0 0;
-  }
-  .position__icons {
-    display: flex;
-    justify-content: center;
   }
 }
 
@@ -83,9 +64,5 @@
   .position__cta-btn button {
     font-size: 14px;
     line-height: 28px;
-  }
-  .position__icons {
-    display: flex;
-    justify-content: center;
   }
 }

@@ -19,8 +19,8 @@ const Stream = () => (
       </h1>
       <p>
         We assist you in shaping your future and simplify your experience. Our
-        expensive cliente continues to expand, and we look forward to
-        establishing a bechmark in the Immigration and Visa services market
+        expensive clientele continues to expand, and we look forward to
+        establishing a bechmark in the Immigration and Visa services market.
       </p>
     </div>
   </div>

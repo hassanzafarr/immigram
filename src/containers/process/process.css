@@ -27,8 +27,8 @@
 .immi__possibility-content h1 {
   font-family: var(--font-family);
   font-weight: 600;
-  font-size: 34px;
-  line-height: 45px;
+  font-size: 48px;
+  line-height: 55px;
   margin: 1rem 0;
 }
 
@@ -37,7 +37,7 @@
   font-family: var(--font-family2);
   font-weight: 400;
   font-size: 20px;
-  line-height: 30px;
+  line-height: 25px;
 
   margin-bottom: 2rem;
 }
@@ -59,5 +59,12 @@
   .immi__possibility-image img {
     width: 100%;
     height: 100%;
+  }
+  .immi__possibility-content p {
+    font-size: 16px;
+  }
+  .immi__possibility-content h1 {
+    font-size: 34px;
+    line-height: 42px;
   }
 }
