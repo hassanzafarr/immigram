@@ -48,8 +48,8 @@ const Footer = () => (
         <p>Karachi</p>
         <p>Dubai</p>
         <p>Vancouver</p>
-        <p>Whatsapp us</p>
-        <p>+1(647)873-4235</p>
+        {/* <p>Whatsapp us</p> */}
+        {/* <p>+1(647)873-4235</p> */}
       </div>
     </div>
 
