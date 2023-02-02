@@ -9,6 +9,7 @@ import UKvisa from "./pages/UK/UK";
 import Contact from "./pages/Contact/Contact";
 import Canada from "./pages/Canada/Canada"
 import { Route, Routes } from "react-router-dom";
+import Test from "./pages/Test/Test";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/uk" element={<UKvisa />} />
         <Route path="/us" element={<USvisa />} />
         <Route path="/canada" element={<Canada />} />
+        <Route path="/test" element={<Test/>}/>
       </Routes>
     </>
   );

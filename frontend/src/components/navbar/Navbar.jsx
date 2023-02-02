@@ -2,10 +2,15 @@ import React, { useState } from "react";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import logo from "../../assets/fanun.svg";
 import "./navbar.css";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
+  const navigate = useNavigate();
+
+  const routeToTest = ()=>{
+    navigate("/test")
+  }
 
   return (
     <div className="immi__navbar">
@@ -41,7 +46,7 @@ const Navbar = () => {
         </div>
       </div>
       <div className="immi__navbar-sign">
-        <button type="button">Take a test</button>
+        <button type="button" onClick={routeToTest}>Take a test</button>
       </div>
       <div className="immi__navbar-menu">
         {toggleMenu ? (
