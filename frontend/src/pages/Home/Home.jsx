@@ -10,12 +10,11 @@ import {
 } from "../../containers";
 
 import { Navbar, Brand, CTA } from "../../components";
-import Scroll from "../../components/SmoothScroll";
 
 const Home = () => (
   <div className="home-main">
     <Navbar />
-    {/* <Scroll /> */}
+
     <Header />
     <Brand />
     <Process />

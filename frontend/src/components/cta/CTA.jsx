@@ -1,6 +1,7 @@
 import React from "react";
 import "./cta.css";
 import image from "../../assets/group29.png";
+import Fade from "react-reveal/Fade";
 const CTA = () => (
   <div
     className="gpt3__cta"

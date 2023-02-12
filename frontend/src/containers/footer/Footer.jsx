@@ -2,11 +2,16 @@ import React from "react";
 import image from "../../assets/Group28.png";
 
 import "./footer.css";
-import { facebook, instagram, linkedin, twitter } from "./import";
+import { facebook, instagram, linkedin, twitter, whatsapp } from "./import";
+
 <link
   rel="stylesheet"
   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
 />;
+<link
+  rel="stylesheet"
+  href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+></link>;
 const Footer = () => (
   <div
     className="immi__footer section__padding"
@@ -76,6 +81,16 @@ const Footer = () => (
           <a href="https://twitter.com/FANUUNcon">
             {" "}
             <img src={twitter} alt="twitter" />
+          </a>
+        </div>
+        <div>
+          <a
+            href="https://wa.me/16478734235"
+            class="whatsapp_float"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={whatsapp} alt="whatsapp" />
           </a>
         </div>
       </div>

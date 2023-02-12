@@ -1,6 +1,7 @@
 import React from "react";
 import "./itenari.css";
 import { Feature } from "../../components/feature/Feature";
+import Fade from "react-reveal/Fade";
 export const Itinerary = () => {
   const data = [
     "Finding the right DO(Designated Organization)",

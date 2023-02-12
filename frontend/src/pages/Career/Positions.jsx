@@ -1,6 +1,7 @@
 import React from "react";
 import "./position.css";
 import image from "../../assets/line.png";
+import Fade from "react-reveal/Fade";
 import { CiLocationOn, CiClock1 } from "react-icons/ci";
 const Position = () => (
   <div
