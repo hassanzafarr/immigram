@@ -11,7 +11,7 @@ export const WhyFanuun = () => {
     "Obtaining LOS (Letter of Support)",
   ];
   const data2 = [
-    "RA (Retainer Agreement) for PR ",
+    "(Retainer Agreement) RA for PR ",
     "Application Package and requirements ",
     "Documents and Assessments",
     "RA with DO",

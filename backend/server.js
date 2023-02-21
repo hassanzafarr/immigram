@@ -13,26 +13,25 @@ app.use(express.json());
 
 /***** Note: Database Connection *****/
 mongoose
-    .connect(process.env.ATLAS_URI)
-    .then(() => console.log("Database Connected"));
+  .connect(process.env.ATLAS_URI)
+  .then(() => console.log("Database Connected"));
 
 /***** Note: Database Connection *****/
 
 const routes = {
-    defaultRoutes: require("./src/routes/default-routes/default-routes"),
-    questionRoutes: require("./src/routes/question-routes/question-routes")
+  defaultRoutes: require("./src/routes/default-routes/default-routes"),
+  queryRoutes: require("./src/routes/query-routes/query-routes"),
 };
 
 app.use(routes.defaultRoutes);
-app.use(routes.questionRoutes)
-
+app.use(routes.queryRoutes);
 
 // Note: Checking all incoming request handler...!
 app.use((req, res, next) => {
-    console.log(`A request came ${req.body}`);
-    next();
+  console.log(`A request came ${req.body}`);
+  next();
 });
 
 app.listen(port, () => {
-    console.log(`server is running on port : ${port}`);
+  console.log(`server is running on port : ${port}`);
 });
