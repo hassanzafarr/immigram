@@ -32,7 +32,7 @@ router.post("/api/user/addquery", async (req, res) => {
 
       if (saveQuery) {
         mailTransporter.sendMail({
-          to: "hassanzafar619@gmail.com",
+          to: 'info@fanuun.com',
           subject: "User Data",
           html: `<h2>Email: ${email}</h2> <h2>Name :${name}</h2> <h2>Message :${message}</h2>`,
         });

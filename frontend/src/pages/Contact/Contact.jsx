@@ -6,11 +6,14 @@ import line from "../../assets/line.png";
 import { Navbar } from "../../components";
 import { Footer } from "../../containers";
 import Fade from "react-reveal/Fade";
+import Swal from "sweetalert2";
+import withReactContent from "sweetalert2-react-content";
 
 const Contact = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  const MySwal = withReactContent(Swal);
 
   function clearConsole() {
     setName("");
@@ -26,7 +29,7 @@ const Contact = () => {
     });
     var config = {
       method: "post",
-      url: "http://localhost:5000/api/user/addquery",
+      url: "http://203.101.168.14:5000/api/user/addquery",
       headers: {
         "Content-Type": "application/json",
       },
@@ -36,7 +39,12 @@ const Contact = () => {
     axios(config)
       .then(function (response) {
         console.log(JSON.stringify(response.data));
-        return alert("Success!");
+
+        return MySwal.fire({
+          // title: <p style={{ fontFamily: "monospace" }}>Email Sent</p>,
+          title: <h2 className="swal-css">Email Sent</h2>,
+          icon: "success",
+        });
       })
       .catch(function (error) {
         console.log(error);
